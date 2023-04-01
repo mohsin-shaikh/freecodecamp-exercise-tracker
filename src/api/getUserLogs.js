@@ -1,6 +1,5 @@
 const { pocketBaseAxios } = require('../utils/axios')
 const logger = require('../utils/logger')
-const qs = require('qs')
 
 
 const getUserLogs = async (req, res) => {
